@@ -36,20 +36,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Login Page styles */
 #login-form{
     display: flex;
@@ -106,4 +92,51 @@
 #about-us-disclaimer{
     width: 50%;
     padding-bottom: 100px;
+}
+
+/* Contact us page*/
+
+#contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 50%;
+    padding-top: 50px;
+    margin: auto;
+}
+
+#contact-us-details{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 350px;
+    padding: 10px;
+    margin-left: 15px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    overflow: hidden;
+}
+
+#contact-form-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+#contact-form-submit{
+    margin-top: 10px;
 }
