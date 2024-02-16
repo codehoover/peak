@@ -1,0 +1,34 @@
+
+
+#footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+
+
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: #122033;
+}
+
+#footer-col{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    color: white;
+}
+
+#footer-link{
+    text-decoration: none;
+    color: white;
+    transition: 0.25s;
+}
+
+#footer-link:hover{
+    color: #FF5F15;
+    transition: 0.5s;
+}

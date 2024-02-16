@@ -1,0 +1,54 @@
+#navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border-bottom: 1px black solid;
+    font-size: 20px;
+}
+
+#navbar-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    font-weight: bold;    
+}
+
+#navbar-menu a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+#navbar-menu a:hover{
+    transition: 0.5s;
+    color: #FF964f;
+
+
+}
+
+#navbar-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+
+
+    background-color: #FF5F15;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+#navbar-login:hover{
+    background-color: #e75816;
+    transition: 0.5s;
+}

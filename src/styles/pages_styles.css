@@ -1,0 +1,109 @@
+/* Home page styles */
+#peak{
+    color: #FF5F15;
+}
+
+#landing-page-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-left: 50px;
+}
+#header{
+    font-weight: 500;
+    font-size: 62px;
+}
+#header-desc{
+    max-width: 500px;
+    min-width: none;
+    text-align: left;
+    font-size: 20px;
+}
+
+#landing-page-disclaimer{
+    background-color: #28282B;
+    color: white;
+    font-weight: 200;
+}
+
+#landing-page-disclaimer-header{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Login Page styles */
+#login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#email-container:nth-child(1){
+    border-radius: 10px;
+}
+
+/* About us styles */
+
+#about-us-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+
+    width: 100%;
+    margin: auto;
+}
+
+#about-us-header{
+    font-weight: 500;
+    font-size: 48px;
+}
+
+#about-us-1{
+    font-size: 18px;
+    width: 50%;
+}
+
+#about-us-orange{
+    color: #FF5F15;
+    font-weight: bold;
+}
+
+#about-us-features{
+    padding: 50px;
+    color: white;
+    background-color: #28282B;
+}
+
+#about-us-features-wrapper{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+
+}
+
+#about-us-disclaimer{
+    width: 50%;
+    padding-bottom: 100px;
+}
