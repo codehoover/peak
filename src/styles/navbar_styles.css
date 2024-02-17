@@ -13,7 +13,7 @@
 #navbar-menu{
     display: flex;
     justify-content: space-evenly;
-    width: 400px;
+    width: 600px;
     font-weight: bold;    
 }
 

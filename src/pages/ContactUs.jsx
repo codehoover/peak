@@ -26,7 +26,7 @@ export default function Contact(){
                 <input placeholder="E-mail Address" style={{marginBottom:"10px"}}/> 
                 <textarea placeholder="Comment or Message" style={{height:"200px"}}/>
 
-                <button id="contact-form-submit"> Submit </button>
+                <button id="submit"> Submit </button>
 
             </div>
 

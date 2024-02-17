@@ -1,15 +1,43 @@
-/* Home page styles */
+/*hero-banner */
+
+#hero-banner-container{
+
+    display: flex;
+    padding: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+    height: 600px;
+    background: #E5E4E2;
+    border-radius: 15px;
+}
+
+#hero-banner-about-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 30%;
+    color: white;
+    text-decoration: none;
+    background-color: #FF5F15;
+    padding: 15px;
+    border-radius: 50px;
+    transition: 0.25s;
+}
+
+#hero-banner-about-link:hover{
+    background-color: #e75816;
+    transition: 0.5s;
+}
+
 #peak{
     color: #FF5F15;
 }
-
-#landing-page-header{
+#hero-banner-header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
-    margin-left: 50px;
+    justify-content: flex-start;
 }
 #header{
     font-weight: 500;
@@ -22,10 +50,19 @@
     font-size: 20px;
 }
 
+/* Home page styles */
+
+#landing-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #landing-page-disclaimer{
     background-color: #28282B;
     color: white;
     font-weight: 200;
+    width: 100%;
 }
 
 #landing-page-disclaimer-header{
@@ -33,7 +70,55 @@
 }
 
 
+#landing-page-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 20px;
+}
 
+#landing-page-card-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    column-gap: 20px;
+}
+
+
+/* Detail Card */
+#detail-card-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+
+    transition: 0.25s;
+    overflow: hidden;
+    text-decoration: none;
+    color: #28282B;
+}
+
+#detail-card-container:hover{
+    background-color: #E5E4E2;
+    transition: 0.5s;
+}
+
+#detail-card-image{
+    object-fit: cover;
+    object-position: -220px;
+    border-radius: 10px;
+}
+
+#card-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
 
 
 /* Login Page styles */
@@ -136,7 +221,35 @@
     margin-bottom: 10px;
 }
 
-
-#contact-form-submit{
+#submit{
     margin-top: 10px;
+}
+
+input:focus{
+    border: 2px solid #FF5F15;
+    outline:none;
+}
+
+textarea:focus{
+    border: 2px solid #FF5F15;
+    outline:none;
+}
+
+
+/* Routine Builder */
+#routine-builder-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#routine-builder-instructions{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
 }

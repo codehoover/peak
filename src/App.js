@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import About from './pages/AboutUs';
 import Contact from './pages/ContactUs';
 import Login from './pages/Login';
+import RoutineBuiler from './pages/RoutineBuilder';
 
 
 
@@ -27,6 +28,7 @@ function App() {
               <Route path="/About" element={ <About/>} />
               <Route path="/Contact" element={ <Contact/>} />
               <Route path="/Login" element={ <Login/>} />
+              <Route path="/RoutineBuilder" element={ <RoutineBuiler/>} />
 
           </Routes>
 

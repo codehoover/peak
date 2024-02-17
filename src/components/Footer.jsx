@@ -21,6 +21,10 @@ export default function Footer(){
 
                 <div id="footer-col">
                     <h4> Resources </h4>
+                    <Link to="https://jeffnippard.com/blogs/news/the-best-science-based-minimalist-workout-plan-under-45-mins" target="_blank" id="footer-link"> Minamalist Workout</Link>
+                    <Link to="/Contact" id="footer-link"> Push/Pull/Legs </Link>
+                    <Link to="/About" id="footer-link"> 4 day Upper/Lower Split</Link>
+                    <Link to="/Contact" id="footer-link"> 5 Day Upper/lower Split</Link>
 
                 </div>
 
