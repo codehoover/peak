@@ -1,8 +1,13 @@
 import { useState } from "react"
+import { fetchData, exerciseOptions } from "../utils/fetchData";
+
+import WeightTracker from "../components/WeightTracker";
 
 export default function RoutineBuilder(){
 
     const [search, setSearch] = useState('');
+    const [exercises, setExercises] = useState([]);
+    const [bodyParts, setBodyParts] = useState([]);
 
    
     // async means it is going to take some time to run as it will be fetching large
@@ -13,7 +18,22 @@ export default function RoutineBuilder(){
     const handleSearch = async () => {
         //check if there already exists something in the search
         if(search){
-            // const exerzisesData = await fetchData();
+            const exerciseData = await fetchData('https://gym-fit.p.rapidapi.com/exercises/search'
+            , exerciseOptions);
+
+            const searchedExercises = exerciseData.filter(
+
+                (exercise) => exercise.name.toLowerCase().includes(search)
+                || exercise.bodyParts.toLowerCase().includes(search)
+                
+
+            );
+
+            setSearch('');
+            setExercises(searchedExercises);
+
+            console.log(exerciseData);
+
         }
 
     }
@@ -38,6 +58,8 @@ export default function RoutineBuilder(){
                 <button onClick={handleSearch}>Search</button>
 
             </div>
+
+            <WeightTracker/>
 
         </div>
     )

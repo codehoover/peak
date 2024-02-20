@@ -5,8 +5,7 @@
     height: 75px;
     padding-left: 10px;
     padding-right: 10px;
-
-    border-bottom: 1px black solid;
+    background-color: transparent;
     font-size: 20px;
 }
 
