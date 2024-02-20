@@ -20,10 +20,10 @@ export default function Home(){
                 <h1> Your Journey Your Way</h1>
 
                 <div id="landing-page-card-grid">
-                    <DetailCard title={"Track Workouts"} image={Workout_track} />
-                    <DetailCard title={"Manage Sleep"} image={Sleep}/>
-                    <DetailCard title={"Personal Training"} image={Personal_Training}/>
-                    <DetailCard title={"Diet Plan"} image={Macro} alt_desc={'Diet Plan Image'}/>
+                    <DetailCard title={"Track Workouts"}  alt_desc={'Tracking workout'}/>
+                    <DetailCard title={"Manage Sleep"} alt_desc={'Sleep Image'}/>
+                    <DetailCard title={"Personal Training"} alt_desc={'Personal Training Image'}/>
+                    <DetailCard title={"Diet Plan"}  alt_desc={'Diet Plan Image'}/>
                 </div>
 
             </div>
