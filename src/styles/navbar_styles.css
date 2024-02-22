@@ -30,7 +30,7 @@
 
 }
 
-#navbar-login{
+#navbar-signup{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,33 @@
     border-radius: 25px;
     transition: 0.25s;
 }
-#navbar-login:hover{
+#navbar-signup:hover{
     background-color: #e75816;
     transition: 0.5s;
+}
+
+#navbar-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid black;
+    transition: 0.25s;
+}
+#navbar-login:hover{
+    background-color: #E5E4E2;
+    transition: 0.5s;
+}
+#navbar-right{
+    display: flex;
+    gap: 25px;
 }

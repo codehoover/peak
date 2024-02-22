@@ -24,13 +24,31 @@
     width: 30%;
     color: white;
     text-decoration: none;
+    background-color: black;
+    padding: 15px;
+    border-radius: 50px;
+    transition: 0.25s;
+}
+#hero-banner-about-link:hover{
+    background-color: #414146;
+    transition: 0.5s;
+}
+
+
+#hero-banner-about-link-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 30%;
+    color: white;
+    text-decoration: none;
     background-color: #FF5F15;
     padding: 15px;
     border-radius: 50px;
     transition: 0.25s;
 }
-
-#hero-banner-about-link:hover{
+#hero-banner-about-link-2:hover{
     background-color: #e75816;
     transition: 0.5s;
 }
@@ -126,13 +144,49 @@
 
 
 /* Login Page styles */
+#login-container{
+    display: flex;
+    justify-content: center;
+}
+#login-header{
+    text-align: left;
+    font-weight: 400;
+}
+#lg-form-input{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+}
 #login-form{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+
+    max-width: 350px;
+    height: 500px;
+    min-width: 350px;
+    padding: 25px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 25px 10px lightgrey;
 }
 
-#email-container:nth-child(1){
-    border-radius: 10px;
+#login-submit{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FF5F15;
+    transition: 0.5s;
+}
+#login-submit:hover{
+    cursor: pointer;
+    background-color: #e75816;
+    transition: 0.75s;
 }
 
 /* About us styles */
@@ -257,20 +311,9 @@
 }
 #faq-answers{
     width: 20%;
-    animation: switch 1s ease-in-out;
-
 }
 
-@keyframes switch {
-    0%{
-        opacity: 0;
-    }
 
-    100%{
-        opacity: 1;
-    }
-    
-}
 /* contact card */
 #contact-form{
     display: flex;

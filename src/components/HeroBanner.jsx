@@ -13,8 +13,9 @@ export default function HeroBanner(){
                         made to help you reach your goals.
                         Build and track workouts, macros, sleep and more!
                     </p>
-                     <Link id="hero-banner-about-link" to="/About"> Find out more </Link> 
-
+                    <Link id="hero-banner-about-link-2" to="/SignUp"> Register </Link>  
+                    <Link id="hero-banner-about-link" to="/About"> Find out more </Link>
+                    
                 </div>
 
             </div>
