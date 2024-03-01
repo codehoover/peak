@@ -9,7 +9,7 @@ export default function DetailCard({image,title,link, alt_desc}){
             
             <div id="card-link">
                 <p>{title}</p>
-                <img src={link_img} alt="link" height={30} width={30}/>
+                <img loading="lazy" src={link_img} alt="link" height={30} width={30}/>
             </div>
 
 

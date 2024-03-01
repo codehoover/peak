@@ -18,13 +18,14 @@ export default function Home(){
 
             <div id="landing-page-features">
                 <h1> Your Journey Your Way</h1>
-
                 <div id="landing-page-card-grid">
-                    <DetailCard title={"Track Workouts"}  alt_desc={'Tracking workout'}/>
-                    <DetailCard title={"Manage Sleep"} alt_desc={'Sleep Image'}/>
-                    <DetailCard title={"Personal Training"} alt_desc={'Personal Training Image'}/>
-                    <DetailCard title={"Diet Plan"}  alt_desc={'Diet Plan Image'}/>
+                    <DetailCard title={"Track Workouts"}  alt_desc={'Tracking workout'} image={Workout_track}/>
+                    <DetailCard title={"Manage Sleep"} alt_desc={'Sleep Image'} image={Sleep}/>
+                    <DetailCard title={"Personal Training"} alt_desc={'Personal Training Image'} image={Personal_Training}/>
+                    <DetailCard title={"Diet Plan"}  alt_desc={'Diet Plan Image'} image={Macro}/>
                 </div>
+
+
 
             </div>
 

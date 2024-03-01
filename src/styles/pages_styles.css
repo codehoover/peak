@@ -100,27 +100,37 @@
     width: 90%;
     margin-bottom: 20px;
 }
-
+#landing-page-grid-holder{
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
 #landing-page-card-grid{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 15px;
 
-    column-gap: 20px;
+    
 }
 
 
 /* Detail Card */
 #detail-card-container{
     display: flex;
+    position: relative;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
     padding: 10px;
+    max-width: 300px;
+    height: 350px;
 
     transition: 0.25s;
     overflow: hidden;
     text-decoration: none;
     color: #28282B;
+    
 }
 
 #detail-card-container:hover{
@@ -130,8 +140,9 @@
 
 #detail-card-image{
     object-fit: cover;
-    object-position: -220px;
+    object-position: -100px;
     border-radius: 10px;
+
 }
 
 #card-link{

@@ -2,6 +2,8 @@ import {
 Link
  } from "react-router-dom";
 
+import { Dropdown, DropdownButton, DropdownItem, DropdownMenu, DropdownToggle } from "react-bootstrap";
+
 export default function NavBar(){
     return(
         <div id="navbar-container">
