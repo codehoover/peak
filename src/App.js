@@ -12,6 +12,7 @@ import Contact from './pages/ContactUs';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import RoutineBuiler from './pages/RoutineBuilder';
+import MobileNav from './components/MobileNav';
 
 
 
@@ -22,6 +23,7 @@ function App() {
   return (
     <div className="App">
         <Router>
+          <MobileNav/>
           <NavBar/>
 
           <Routes>

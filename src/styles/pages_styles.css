@@ -2,6 +2,96 @@
     font-weight: 600;
 }
 
+/* hamburger menu */
+
+#hamburger-menu{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    z-index: 2;
+    padding: 10px;
+    margin: 15px;
+    top: 0;
+    right: 0;
+
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    
+}
+
+/* will display up to width of 767px */
+@media (max-width: 767px){
+    #hamburger-menu{
+        display: flex;     
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+}
+
+#burger{
+    background-color: #414146;
+    height: 0.25rem;
+    width: 2rem;
+    border-radius: 10px;
+}
+
+#burger:nth-child(2){
+    width: 80%;
+}
+#burger:nth-child(3){
+    background-color: #FF5F15;
+    width: 60%;
+}
+
+#mobile-navigation{
+    display: none;
+
+    background-color: #A9A9A9;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 55px;
+    
+    color: #28282B;
+    z-index: 1;
+    
+    right: 0px;
+}
+@media (max-width: 767px){
+    #mobile-navigation{
+        display: flex;
+    }
+}
+
+#mobile-nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+#mobile-navigation ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+     
+}
+
+#mobile-navigation a{
+    color: #28282B;
+    text-decoration: none;
+}
+
+#mobile-navigation a:hover{
+    color: #FF5F15;
+    transition: 0.25s;
+}
+
+
 /*hero-banner */
 
 #hero-banner-container{
@@ -21,7 +111,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    width: 30%;
+    min-width: 150px;
+    max-width: 150px;
     color: white;
     text-decoration: none;
     background-color: black;
@@ -40,7 +131,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    width: 30%;
+    max-width: 150px;
+    min-width: 150px;
     color: white;
     text-decoration: none;
     background-color: #FF5F15;
