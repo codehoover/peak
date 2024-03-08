@@ -39,26 +39,6 @@ export default function RoutineBuilder(){
     }
     return(
         <div id="routine-builder-container">
-
-            <div id="routine-builder-instructions">
-                <h1> Welcome to the Routine Builder!</h1>
-                <p>
-                    Here you can build a routine suited to your needs.
-                    Use the search bar to find exercises to add to your personalized
-                    routine. You can build up to 5 different unique routines and 
-                    schedule when you would like to perform each. Have an ab circuit
-                    you would like to perform after your leg day? Schedule it in!
-                </p>
-
-            </div>
-
-            <div id="routine-builder-search">
-                <input placeholder="Search Exercise" value={search} 
-                onChange={(e) => setSearch(e.target.value.toLowerCase())}/>
-                <button onClick={handleSearch}>Search</button>
-
-            </div>
-
             <WeightTracker/>
 
         </div>
