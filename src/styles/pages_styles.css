@@ -435,8 +435,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 300px;
     max-width: 450px;
-    min-width: 350px;
+    
     height: 400px;
     padding: 15px;
     margin: 10px;
@@ -502,21 +503,82 @@ textarea:focus{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     width: 100%;
+}
+#routine-content{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-nav{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    margin: 10px;
+}
+#button-nav button{
+    background: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+
 }
 
 /*Weight Tracker */
+#weight-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 #weight-input{
     margin: auto;
+    margin-bottom: 10pc;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 80vw;
-    height: 400px;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-radius: 15px;
     box-shadow: 5px 5px 25px 10px lightgrey;
+}
+#weight-addition-container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+
+#weight-button{
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+    transition: 0.5s;
+}
+
+#weight-button:hover{
+    cursor: pointer;
+    background-color: #D3D3D3;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+#weight-modal{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 10px;
 }
 
 
