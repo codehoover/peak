@@ -23,6 +23,7 @@ export default function MobileNav(){
                     <Link to="/Contact" id="mobile-nav-link"> <ContactSupport/>Contact Us</Link>
                     <Link to="/Login" id="mobile-nav-link"> <Login/>Login</Link>
                     <Link to="/SignUp" id="mobile-nav-link"> <PersonAdd/> Sign Up</Link>
+                    <Link to="/RoutineBuilder" id="mobile-nav-link"> <PersonAdd/> Routine Builder</Link>
                 </ul>
             </div>: null}
 

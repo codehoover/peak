@@ -582,4 +582,11 @@ textarea:focus{
 }
 
 
+/* Dashboard */
+
+#grocery-modal{
+    height: 450px;
+    margin: auto;
+
+}
 
